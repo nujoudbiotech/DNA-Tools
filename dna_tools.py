@@ -99,3 +99,7 @@ AGGGCCTGACTCAGACTGA"""
         print(f"RNA (first 50 bases): {rna[:50]}...")
         print(f"Protein (first 50 aa): {protein[:50]}...")
         print(f"Protein Length: {len(protein)} aa")
+def reverse_complement(dna):
+    complement = {'A':'T', 'T':'A', 'C':'G', 'G':'C'}
+    dna = dna.upper()
+    return "".join(complement.get(base, base) for base in reversed(dna)
