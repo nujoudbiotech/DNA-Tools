@@ -14,3 +14,12 @@ Python | Biopython
 From laptop in Sudan to Cell & Gene Therapy labs in Japan | MEXT 2026
 
 Biotechnology Student | Cell & Gene Therapy | Gene Editing, mRNA & Bioinformatics
+## 🧪 Example Output
+
+```python
+> python dna_tools.py
+
+DNA: ATGCGTAACGTTAG
+GC Content: 46.15%
+Reverse Complement: CTAACGTTACGCAT
+Protein: MRNV
